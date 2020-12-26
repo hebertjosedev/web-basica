@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Terapias</title>
+	<link rel="shortcut icon" href="img/cerebromejorx32.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="particles-js"></div>
+
+	<header class="header">
+       <div class="color-header">
+           <div class="container">
+               <nav class="navbar navbar-expand-lg navbar-light">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav w-100 justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="trastornos">Trastornos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sindromes">Sindromes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="terapias">Terapias</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </div>
+      </div>
+      </header>
+
+      <div class="container mt-5">
+      <div class="row">
+      <div class="container col-md-6 col-sm-12">
+ <form autocomplete="off" id="formulario">
+    <div class="col-12 mb-2">
+      <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+      <small class="text-danger mx-2">* Opcional</small>
+    </div>
+    <div class="col-12 mb-2">
+      <input type="email" name="email" class="form-control" placeholder="Correo" required>
+    </div>
+    <div class="col-12 mb-2">
+      <textarea type="text" name="consulta" class="form-control" placeholder="Problematica" minlength="20" required></textarea>
+    </div>
+    <div class="col-12 mb-2">
+      <button type="submit" class="form-control">Enviar</button>
+    </div>
+    
+    <div class="container">
+       <div class="mt-3" id="exito"></div>
+       <div class="mt-3" id="error"></div>
+    </div>
+  
+</form>
+</div>
+
+<div class="col-md-6 col-sm-12 text-center mb-2 p-3" id="texto-mensaje">
+  <img class="imagen-informacion" src="img/mensajesi.svg" alt="">
+<p class="parrafo">Dejanos cualquier problematica psicologica que esté viviendo, en breve le contestaremos.</p>
+</div>
+</div>
+</div>
+
+
+<!-- Scripts de bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!-- 	Script de particulasJS-->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/envio.js"></script>
+</body>
+</html>
